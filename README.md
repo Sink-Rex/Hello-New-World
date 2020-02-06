@@ -4,17 +4,16 @@ Let's make a big difference.
 
 -feature-A
 
--fuature-B
+-feature-B
 
 ---
-# Markdown 练习
-
+## Markdown 练习
+## 标题
 # 标题一
 ## 标题二
 ### 标题三
 
-# 这个标题拥有 1 个 id {#my_id}
-# 这个标题有 2 个 classes {.class1.class2}
+## 文字
 *这会是 斜体 的文字*
 _这会是 斜体 的文字_
 
@@ -24,7 +23,7 @@ __这会是 粗体 的文字__
 _你也 **组合** 这些符号_
 
 ~~这个文字将会被横线删除~~
-
+## 列表
 - Item 1
 - Item 2
   - Item 2a
@@ -36,21 +35,13 @@ _你也 **组合** 这些符号_
    1. Item 3a
    1. Item 3b  
 
-http://github.com/Sink-Rex - 自动生成！
-[My_GitHub](http://github.com/Sink-Rex)
-
+## 引用框
 正如 Kanye West 所说：
 
 > We're living the future so
 > the present is our past.
 
-如下，三个或者更多的
-
-
-
-我觉得你应该在这里使用
-`<addr>` 才对。
-
+## 代码高亮
 ```ruby
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
@@ -63,18 +54,22 @@ function add(x, y) {
   return x + y
 }
 ```
+## 表格
 First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
-==marked==
-30^th^
-H~2~O
-Content [^1]
+## 标注
 
-[^1]: Hi! This is a footnote
+30<sup>th</sup>
+H<sub>2</sub>O
 
-:smile:
-:fa-car: 
-
+## 表情
+:smile::blush: 
+[Emoji](http://www.emoji-cheat-sheet.com)支持页面
+##图片
+引用方法 | 图片
+-------|-------
+使用七牛云作为图床 | ![text](http://q59qahcgi.bkt.clouddn.com/logo.jpg?e=1580976835&token=HD5V3YuzhZC8rfF6gg7jukkSUibZ2WIcaruYBL2t:5VAS1BWDEdsVT3CSMReRaZzBFbA=)
+使用本地图片 | ![](logo.jpg)
