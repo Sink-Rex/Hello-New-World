@@ -36,8 +36,8 @@ _你也 **组合** 这些符号_
    1. Item 3a
    1. Item 3b  
 
-http://github.com - 自动生成！
-[GitHub](http://github.com)
+http://github.com/Sink-Rex - 自动生成！
+[My_GitHub](http://github.com/Sink-Rex)
 
 正如 Kanye West 所说：
 
@@ -57,9 +57,6 @@ markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
 
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
 
 ```javascript {.line-numbers}
 function add(x, y) {
@@ -70,6 +67,7 @@ First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
+
 ==marked==
 30^th^
 H~2~O
